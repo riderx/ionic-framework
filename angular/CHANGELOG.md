@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3-nightly.20220428](https://github.com/ionic-team/ionic/compare/v6.0.0-rc.2...v6.1.3-nightly.20220428) (2022-04-28)
+
+
+### Bug Fixes
+
+* **angular:** apply touch, dirty and pristine form control classes ([#24558](https://github.com/ionic-team/ionic/issues/24558)) ([273ae2c](https://github.com/ionic-team/ionic/commit/273ae2cc087b2a5a30fb50a1b0eaeb0a221900fc)), closes [#24483](https://github.com/ionic-team/ionic/issues/24483)
+* **angular:** attach change detector ref for inline overlays ([#24521](https://github.com/ionic-team/ionic/issues/24521)) ([5c54593](https://github.com/ionic-team/ionic/commit/5c54593dde64ae61347568405ebf74502cfff370)), closes [#24502](https://github.com/ionic-team/ionic/issues/24502)
+* **angular:** button components now route correctly without reload ([#25071](https://github.com/ionic-team/ionic/issues/25071)) ([1c26e9b](https://github.com/ionic-team/ionic/commit/1c26e9b9b0fc45a8691e972fe17a168f89a27a79))
+* **angular:** inline modals now add .ion-page class correctly ([#24751](https://github.com/ionic-team/ionic/issues/24751)) ([ef46eaf](https://github.com/ionic-team/ionic/commit/ef46eafc9476a85ea3369e542f528d01d3cca0a8)), closes [#24750](https://github.com/ionic-team/ionic/issues/24750)
+* **angular:** item styling when control has value ([#24932](https://github.com/ionic-team/ionic/issues/24932)) ([eea25d0](https://github.com/ionic-team/ionic/commit/eea25d091d7eb319d6ec1de8b793881d3a10949b)), closes [#23809](https://github.com/ionic-team/ionic/issues/23809)
+* **angular:** ngOnDestroy runs inside angular zone ([#24949](https://github.com/ionic-team/ionic/issues/24949)) ([a8fd2d9](https://github.com/ionic-team/ionic/commit/a8fd2d9199ca92d62bce6abf8caccc7709fa5ca1)), closes [#22571](https://github.com/ionic-team/ionic/issues/22571)
+* **angular:** popover will respect side attribute value ([#24470](https://github.com/ionic-team/ionic/issues/24470)) ([e6955a2](https://github.com/ionic-team/ionic/commit/e6955a26b92fc536c5c73b60b5943881c7d58ee1)), closes [#24466](https://github.com/ionic-team/ionic/issues/24466)
+* **angular:** prevent duplicate event emissions ([#24200](https://github.com/ionic-team/ionic/issues/24200)) ([fc1eae9](https://github.com/ionic-team/ionic/commit/fc1eae982d7493f5b69fb18829f9c796f05a0d47))
+* **angular:** routerLink allows opening in a new tab for link elements ([#25014](https://github.com/ionic-team/ionic/issues/25014)) ([b010f07](https://github.com/ionic-team/ionic/commit/b010f077fe51992dd9dd8ced69769a8eb91ac055)), closes [#24413](https://github.com/ionic-team/ionic/issues/24413)
+* **angular:** routerLink with null value works with Angular 13 ([#24622](https://github.com/ionic-team/ionic/issues/24622)) ([90a9a9c](https://github.com/ionic-team/ionic/commit/90a9a9c3e813c8db0a9d6b3b25c152929bea80fe)), closes [#24586](https://github.com/ionic-team/ionic/issues/24586)
+* **angular:** strict type usage ([#24221](https://github.com/ionic-team/ionic/issues/24221)) ([816096f](https://github.com/ionic-team/ionic/commit/816096f89747e943a4a273175d384189f25e4628))
+* **icon:** update to ionicons 6 to resolve typescript 4.4 errors ([#24185](https://github.com/ionic-team/ionic/issues/24185)) ([118c606](https://github.com/ionic-team/ionic/commit/118c606703f792f830d92f1148882b5daa3f180f))
+* **input:** ionInput event emits with type of InputEvent ([#24111](https://github.com/ionic-team/ionic/issues/24111)) ([52cd5d0](https://github.com/ionic-team/ionic/commit/52cd5d0ccedb8013c860198fc69f6bc0d4e6d386))
+* **modal:** .ion-page element is now correctly added ([#24811](https://github.com/ionic-team/ionic/issues/24811)) ([3d0f999](https://github.com/ionic-team/ionic/commit/3d0f99904fe192fcb5f529780858a0f25f076af7)), closes [#24809](https://github.com/ionic-team/ionic/issues/24809)
+* **react, vue:** remove sideeffects to improve treeshaking ([#24313](https://github.com/ionic-team/ionic/issues/24313)) ([13d4418](https://github.com/ionic-team/ionic/commit/13d4418588b98d301b05ebd94e0eac670163a553))
+* **tabs:** angular, fire willChange event before selected tab changes ([#24910](https://github.com/ionic-team/ionic/issues/24910)) ([d5efa11](https://github.com/ionic-team/ionic/commit/d5efa113317eaf874712134dc9b8e4502aa4760f))
+
+
+### Features
+
+* **datetime:** isDateEnabled to enable/disable specific days  ([#24898](https://github.com/ionic-team/ionic/issues/24898)) ([e932a04](https://github.com/ionic-team/ionic/commit/e932a042237e6f44bf278bcbd895d8569fc17348)), closes [#24209](https://github.com/ionic-team/ionic/issues/24209)
+* **item:** counter formatter to customize counter text display ([#24336](https://github.com/ionic-team/ionic/issues/24336)) ([171020e](https://github.com/ionic-team/ionic/commit/171020e9d200ccfdef0f01c427b295bb50dd1fef)), closes [#24327](https://github.com/ionic-team/ionic/issues/24327)
+* **modal:** ability to programmatically set current sheet breakpoint ([#24648](https://github.com/ionic-team/ionic/issues/24648)) ([3145c76](https://github.com/ionic-team/ionic/commit/3145c76934ac711038f9dcba98a385dfbe754953)), closes [#23917](https://github.com/ionic-team/ionic/issues/23917)
+* **range:** add knobMoveStart and knobMoveEnd events ([#25011](https://github.com/ionic-team/ionic/issues/25011)) ([f5cb1f8](https://github.com/ionic-team/ionic/commit/f5cb1f8444ba050042e788f9f9ec7b6309bf1b60))
+* **react:** add setupIonicReact function ([#24254](https://github.com/ionic-team/ionic/issues/24254)) ([55db38d](https://github.com/ionic-team/ionic/commit/55db38ddc541c2632c7d3e4e4c9400ff5b5dfe8c)), closes [#24139](https://github.com/ionic-team/ionic/issues/24139)
+* **select:** add event for when overlay is dismissed ([#24099](https://github.com/ionic-team/ionic/issues/24099)) ([c1ecf94](https://github.com/ionic-team/ionic/commit/c1ecf94e4e6e320b61606da3c889926f7372ced7))
+* **select:** add event for when overlay is dismissed ([#24400](https://github.com/ionic-team/ionic/issues/24400)) ([b835b7c](https://github.com/ionic-team/ionic/commit/b835b7c0c7840f41c54f96743cc0a779ff474ab6))
+* **slides:** add support for Swiper 7 ([#24190](https://github.com/ionic-team/ionic/issues/24190)) ([d0b6130](https://github.com/ionic-team/ionic/commit/d0b61307c6b7ff1589646c43f989260b59db1473))
+
+
+
+
+
 ## [6.1.2](https://github.com/ionic-team/ionic/compare/v6.1.1...v6.1.2) (2022-04-20)
 
 **Note:** Version bump only for package @ionic/angular

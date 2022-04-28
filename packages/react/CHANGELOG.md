@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3-nightly.20220428](https://github.com/ionic-team/ionic/compare/v6.0.0-rc.2...v6.1.3-nightly.20220428) (2022-04-28)
+
+
+### Bug Fixes
+
+* **angular, react,  vue:** overlays no longer throw errors when used inside tests ([#24681](https://github.com/ionic-team/ionic/issues/24681)) ([897ae4a](https://github.com/ionic-team/ionic/commit/897ae4a4546ac0dd811125d5513ef23d133a1589)), closes [#24549](https://github.com/ionic-team/ionic/issues/24549) [#24590](https://github.com/ionic-team/ionic/issues/24590)
+* **breadcrumb:** support routerLink on breadcrumb ([#24509](https://github.com/ionic-team/ionic/issues/24509)) ([5bb1414](https://github.com/ionic-team/ionic/commit/5bb1414f7fa04ea07954cb3f68883ee2f162586a)), closes [#24493](https://github.com/ionic-team/ionic/issues/24493)
+* **icon:** update to ionicons 6 to resolve typescript 4.4 errors ([#24185](https://github.com/ionic-team/ionic/issues/24185)) ([118c606](https://github.com/ionic-team/ionic/commit/118c606703f792f830d92f1148882b5daa3f180f))
+* **react-router:** remove page transition flicker on outlet mounting ([#24667](https://github.com/ionic-team/ionic/issues/24667)) ([bdb5c42](https://github.com/ionic-team/ionic/commit/bdb5c421d2d1f72c123c254e50c6d31b3c1a8f42)), closes [#24666](https://github.com/ionic-team/ionic/issues/24666)
+* **react, vue:** remove sideeffects to improve treeshaking ([#24313](https://github.com/ionic-team/ionic/issues/24313)) ([13d4418](https://github.com/ionic-team/ionic/commit/13d4418588b98d301b05ebd94e0eac670163a553))
+* **react,vue:** backdrop for inline modal/popover overlay ([#24453](https://github.com/ionic-team/ionic/issues/24453)) ([77f8412](https://github.com/ionic-team/ionic/commit/77f8412b746222793cd9d17f12f50d512ab5e886)), closes [#24449](https://github.com/ionic-team/ionic/issues/24449)
+* **react:** add useRef wrapper to useIonOverlay state to avoid stale references ([#24553](https://github.com/ionic-team/ionic/issues/24553)) ([bce849c](https://github.com/ionic-team/ionic/commit/bce849c5f324522002eff7f8a5e5023150e9201c))
+* **react:** building app for production now works correctly with vite ([#24515](https://github.com/ionic-team/ionic/issues/24515)) ([32fad3d](https://github.com/ionic-team/ionic/commit/32fad3d02cb6b012a772de03eafe3e3a6b1300e0)), closes [#24229](https://github.com/ionic-team/ionic/issues/24229)
+* **react:** improve component compatibility with preact ([#24132](https://github.com/ionic-team/ionic/issues/24132)) ([15fc293](https://github.com/ionic-team/ionic/commit/15fc293d75aa21426616459c2596b46e2d460f49)), closes [#23516](https://github.com/ionic-team/ionic/issues/23516)
+* **react:** nested router outlets will not reanimate entered views ([#24672](https://github.com/ionic-team/ionic/issues/24672)) ([43aa6c1](https://github.com/ionic-team/ionic/commit/43aa6c11f42fd5cf455c50419d5f5fbb327b2901)), closes [#24107](https://github.com/ionic-team/ionic/issues/24107)
+* **react:** present and dismiss hooks return promises ([#24299](https://github.com/ionic-team/ionic/issues/24299)) ([4b26fea](https://github.com/ionic-team/ionic/commit/4b26feaa47efed4806aba565a52554db232b99e2))
+* **react:** prevent errors when dismissing inline popover after containing element is removed ([#24569](https://github.com/ionic-team/ionic/issues/24569)) ([c8a392a](https://github.com/ionic-team/ionic/commit/c8a392aef5fbf25f59a573897d970c41abac04d2))
+* **react:** properly check for custom elements to avoid errors in unit tests ([#24156](https://github.com/ionic-team/ionic/issues/24156)) ([8f188ea](https://github.com/ionic-team/ionic/commit/8f188eaae7422c9e81053868b9dd93b4ac738e98)), closes [#24149](https://github.com/ionic-team/ionic/issues/24149)
+* **react:** scrolling to bottom of modal contents ([#24510](https://github.com/ionic-team/ionic/issues/24510)) ([1462cef](https://github.com/ionic-team/ionic/commit/1462cef69225e20582e2f9a0b8fd655ca2066b79)), closes [#24478](https://github.com/ionic-team/ionic/issues/24478)
+* **react:** setupIonicReact no longer crashes in SSR environment ([#24604](https://github.com/ionic-team/ionic/issues/24604)) ([360643d](https://github.com/ionic-team/ionic/commit/360643d96a03b345c83b88c9ff06e9aa254dee81))
+* **react:** treeshake ionic/core bundle ([#24989](https://github.com/ionic-team/ionic/issues/24989)) ([a296ca8](https://github.com/ionic-team/ionic/commit/a296ca875c18ec01bfc57972571e95a6d79f5678)), closes [#24497](https://github.com/ionic-team/ionic/issues/24497)
+
+
+### Features
+
+* **react:** add setupIonicReact function ([#24254](https://github.com/ionic-team/ionic/issues/24254)) ([55db38d](https://github.com/ionic-team/ionic/commit/55db38ddc541c2632c7d3e4e4c9400ff5b5dfe8c)), closes [#24139](https://github.com/ionic-team/ionic/issues/24139)
+* **slides:** add support for Swiper 7 ([#24190](https://github.com/ionic-team/ionic/issues/24190)) ([d0b6130](https://github.com/ionic-team/ionic/commit/d0b61307c6b7ff1589646c43f989260b59db1473))
+
+
+### Performance Improvements
+
+* **various:** don't use lazy-loaded icon names in components ([#24671](https://github.com/ionic-team/ionic/issues/24671)) ([484de50](https://github.com/ionic-team/ionic/commit/484de5074de212dffb4bf4f73bade7acec103fe8))
+
+
+
+
+
 ## [6.1.2](https://github.com/ionic-team/ionic/compare/v6.1.1...v6.1.2) (2022-04-20)
 
 **Note:** Version bump only for package @ionic/react
